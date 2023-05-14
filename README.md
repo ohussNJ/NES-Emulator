@@ -1,19 +1,16 @@
-# NES-Emulator
+# NES Emulator
 ### Compiling
-You need:
+Requirements:
 * SFML 2.0+ development headers and library
 * C++11 compliant compiler
 * CMake build system
 
-Compiling is straight forward with cmake, just run cmake on the project directory with CMAKE_BUILD_TYPE=Release
-and you'll get Makefile or equivalent for your platform, with which you can compile the emulator
+Compiling is done with cmake, run cmake on the project directory with CMAKE_BUILD_TYPE=Release
+and you'll get a Makefile (or equivalent for your platform) which you can use to compile the emulator
 
 ### Controller
 
-Keybindings can be configured with keybindings.conf
-
-
-Default keybindings:
+Default Bindings (Can be changed in keybindings.conf):
 
 **Player 1**
 
@@ -33,10 +30,10 @@ Default keybindings:
 
  Button        | Mapped to
  --------------|-------------
- Start         | Numpad9
- Select        | Numpad8
- A             | Numpad5
- B             | Numpad6
+ Start         | Numpad 9
+ Select        | Numpad 8
+ A             | Numpad 5
+ B             | Numpad 6
  Up            | Up
  Down          | Down
  Left          | Left
